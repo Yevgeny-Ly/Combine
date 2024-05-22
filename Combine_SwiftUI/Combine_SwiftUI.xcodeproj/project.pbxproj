@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		93D366172BFBC937009B1345 /* Combine_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D366162BFBC937009B1345 /* Combine_SwiftUIApp.swift */; };
-		93D366192BFBC937009B1345 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D366182BFBC937009B1345 /* ContentView.swift */; };
+		93D366192BFBC937009B1345 /* GuessNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D366182BFBC937009B1345 /* GuessNumberView.swift */; };
 		93D3661B2BFBC93A009B1345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D3661A2BFBC93A009B1345 /* Assets.xcassets */; };
 		93D3661E2BFBC93A009B1345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D3661D2BFBC93A009B1345 /* Preview Assets.xcassets */; };
+		93E81F382BFDCE270076537A /* GuessNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E81F372BFDCE270076537A /* GuessNumberViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93D366132BFBC937009B1345 /* Combine_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combine_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D366162BFBC937009B1345 /* Combine_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_SwiftUIApp.swift; sourceTree = "<group>"; };
-		93D366182BFBC937009B1345 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93D366182BFBC937009B1345 /* GuessNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberView.swift; sourceTree = "<group>"; };
 		93D3661A2BFBC93A009B1345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93D3661D2BFBC93A009B1345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93E81F372BFDCE270076537A /* GuessNumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				93D366162BFBC937009B1345 /* Combine_SwiftUIApp.swift */,
-				93D366182BFBC937009B1345 /* ContentView.swift */,
+				93E81F392BFDCE500076537A /* GameGuessNumber */,
 				93D3661A2BFBC93A009B1345 /* Assets.xcassets */,
 				93D3661C2BFBC93A009B1345 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				93D3661D2BFBC93A009B1345 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93E81F392BFDCE500076537A /* GameGuessNumber */ = {
+			isa = PBXGroup;
+			children = (
+				93D366182BFBC937009B1345 /* GuessNumberView.swift */,
+				93E81F372BFDCE270076537A /* GuessNumberViewModel.swift */,
+			);
+			path = GameGuessNumber;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D366192BFBC937009B1345 /* ContentView.swift in Sources */,
+				93E81F382BFDCE270076537A /* GuessNumberViewModel.swift in Sources */,
+				93D366192BFBC937009B1345 /* GuessNumberView.swift in Sources */,
 				93D366172BFBC937009B1345 /* Combine_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +291,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +320,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
