@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		93D366172BFBC937009B1345 /* Combine_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D366162BFBC937009B1345 /* Combine_SwiftUIApp.swift */; };
-		93D366192BFBC937009B1345 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D366182BFBC937009B1345 /* ContentView.swift */; };
+		93D366192BFBC937009B1345 /* TaxiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D366182BFBC937009B1345 /* TaxiView.swift */; };
 		93D3661B2BFBC93A009B1345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D3661A2BFBC93A009B1345 /* Assets.xcassets */; };
 		93D3661E2BFBC93A009B1345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D3661D2BFBC93A009B1345 /* Preview Assets.xcassets */; };
+		93DC06872BFC984A00F94905 /* TaxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DC06862BFC984A00F94905 /* TaxiViewController.swift */; };
+		93E81F442BFDDBEA0076537A /* TaxiViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E81F432BFDDBEA0076537A /* TaxiViewViewModel.swift */; };
+		93E81F482BFDDC630076537A /* TaxiUIKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E81F472BFDDC630076537A /* TaxiUIKitViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93D366132BFBC937009B1345 /* Combine_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combine_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D366162BFBC937009B1345 /* Combine_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_SwiftUIApp.swift; sourceTree = "<group>"; };
-		93D366182BFBC937009B1345 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93D366182BFBC937009B1345 /* TaxiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiView.swift; sourceTree = "<group>"; };
 		93D3661A2BFBC93A009B1345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93D3661D2BFBC93A009B1345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93DC06862BFC984A00F94905 /* TaxiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiViewController.swift; sourceTree = "<group>"; };
+		93E81F432BFDDBEA0076537A /* TaxiViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiViewViewModel.swift; sourceTree = "<group>"; };
+		93E81F472BFDDC630076537A /* TaxiUIKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiUIKitViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				93D366162BFBC937009B1345 /* Combine_SwiftUIApp.swift */,
-				93D366182BFBC937009B1345 /* ContentView.swift */,
+				93E81F412BFDDB690076537A /* AppTaxi */,
 				93D3661A2BFBC93A009B1345 /* Assets.xcassets */,
 				93D3661C2BFBC93A009B1345 /* Preview Content */,
 			);
@@ -65,6 +71,33 @@
 				93D3661D2BFBC93A009B1345 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93E81F412BFDDB690076537A /* AppTaxi */ = {
+			isa = PBXGroup;
+			children = (
+				93E81F462BFDDC2C0076537A /* TaxiUIKit */,
+				93E81F452BFDDC170076537A /* TaxiSwiftUI */,
+			);
+			path = AppTaxi;
+			sourceTree = "<group>";
+		};
+		93E81F452BFDDC170076537A /* TaxiSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				93D366182BFBC937009B1345 /* TaxiView.swift */,
+				93E81F432BFDDBEA0076537A /* TaxiViewViewModel.swift */,
+			);
+			path = TaxiSwiftUI;
+			sourceTree = "<group>";
+		};
+		93E81F462BFDDC2C0076537A /* TaxiUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				93DC06862BFC984A00F94905 /* TaxiViewController.swift */,
+				93E81F472BFDDC630076537A /* TaxiUIKitViewModel.swift */,
+			);
+			path = TaxiUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D366192BFBC937009B1345 /* ContentView.swift in Sources */,
+				93DC06872BFC984A00F94905 /* TaxiViewController.swift in Sources */,
+				93D366192BFBC937009B1345 /* TaxiView.swift in Sources */,
 				93D366172BFBC937009B1345 /* Combine_SwiftUIApp.swift in Sources */,
+				93E81F442BFDDBEA0076537A /* TaxiViewViewModel.swift in Sources */,
+				93E81F482BFDDC630076537A /* TaxiUIKitViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
