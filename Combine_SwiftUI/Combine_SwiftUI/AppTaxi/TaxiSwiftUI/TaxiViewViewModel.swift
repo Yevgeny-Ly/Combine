@@ -6,7 +6,7 @@
 import SwiftUI
 import Combine
 
-final class FirstCancellablePipelineViewModel: ObservableObject {
+final class TaxiSwiftUIViewModel: ObservableObject {
     @Published var data = ""
     @Published var status = ""
     

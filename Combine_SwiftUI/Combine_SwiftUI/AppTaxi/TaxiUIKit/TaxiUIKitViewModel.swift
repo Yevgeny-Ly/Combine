@@ -1,12 +1,12 @@
 //
-//  TaxiViewViewModel.swift
+//  TaxiUIKitViewModel.swift
 //  Combine_SwiftUI
 //
 
 import UIKit
 import Combine
 
-final class TaxiViewViewModel: ObservableObject {
+final class TaxiUIKitViewModel: ObservableObject {
     @Published var data: String? = ""
     @Published var status: String? = ""
     

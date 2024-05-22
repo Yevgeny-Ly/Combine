@@ -6,9 +6,9 @@
 import UIKit
 import Combine
 
-class TaxiViewViewController: UIViewController {
+class TaxiViewController: UIViewController {
     
-    var viewVodel = TaxiViewViewModel()
+    var viewVodel = TaxiUIKitViewModel()
 
     lazy private var dataLabel: UILabel = {
         let label = UILabel()

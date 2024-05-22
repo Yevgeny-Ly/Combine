@@ -7,8 +7,7 @@ import SwiftUI
 import Combine
 
 struct TaxiView: View {
-    
-    @StateObject var viewModel = FirstCancellablePipelineViewModel()
+    @StateObject var viewModel = TaxiSwiftUIViewModel()
     
     var body: some View {
         VStack {

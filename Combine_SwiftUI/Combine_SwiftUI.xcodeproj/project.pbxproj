@@ -13,7 +13,7 @@
 		93D3661E2BFBC93A009B1345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D3661D2BFBC93A009B1345 /* Preview Assets.xcassets */; };
 		93DC06872BFC984A00F94905 /* TaxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DC06862BFC984A00F94905 /* TaxiViewController.swift */; };
 		93E81F442BFDDBEA0076537A /* TaxiViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E81F432BFDDBEA0076537A /* TaxiViewViewModel.swift */; };
-		93E81F482BFDDC630076537A /* TaxiViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E81F472BFDDC630076537A /* TaxiViewViewModel.swift */; };
+		93E81F482BFDDC630076537A /* TaxiUIKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E81F472BFDDC630076537A /* TaxiUIKitViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		93D3661D2BFBC93A009B1345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		93DC06862BFC984A00F94905 /* TaxiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiViewController.swift; sourceTree = "<group>"; };
 		93E81F432BFDDBEA0076537A /* TaxiViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiViewViewModel.swift; sourceTree = "<group>"; };
-		93E81F472BFDDC630076537A /* TaxiViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiViewViewModel.swift; sourceTree = "<group>"; };
+		93E81F472BFDDC630076537A /* TaxiUIKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiUIKitViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				93DC06862BFC984A00F94905 /* TaxiViewController.swift */,
-				93E81F472BFDDC630076537A /* TaxiViewViewModel.swift */,
+				93E81F472BFDDC630076537A /* TaxiUIKitViewModel.swift */,
 			);
 			path = TaxiUIKit;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 				93D366192BFBC937009B1345 /* TaxiView.swift in Sources */,
 				93D366172BFBC937009B1345 /* Combine_SwiftUIApp.swift in Sources */,
 				93E81F442BFDDBEA0076537A /* TaxiViewViewModel.swift in Sources */,
-				93E81F482BFDDC630076537A /* TaxiViewViewModel.swift in Sources */,
+				93E81F482BFDDC630076537A /* TaxiUIKitViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
