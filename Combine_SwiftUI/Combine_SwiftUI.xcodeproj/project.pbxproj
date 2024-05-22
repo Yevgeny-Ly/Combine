@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		93D366172BFBC937009B1345 /* Combine_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D366162BFBC937009B1345 /* Combine_SwiftUIApp.swift */; };
-		93D366192BFBC937009B1345 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D366182BFBC937009B1345 /* ContentView.swift */; };
+		93D366192BFBC937009B1345 /* TextFieldSwifUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D366182BFBC937009B1345 /* TextFieldSwifUIView.swift */; };
 		93D3661B2BFBC93A009B1345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D3661A2BFBC93A009B1345 /* Assets.xcassets */; };
 		93D3661E2BFBC93A009B1345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D3661D2BFBC93A009B1345 /* Preview Assets.xcassets */; };
+		93D366252BFBE03E009B1345 /* TextFieldUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D366242BFBE03E009B1345 /* TextFieldUIKit.swift */; };
+		93E81F3E2BFDD9C90076537A /* TextFieldSwifUIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E81F3D2BFDD9C90076537A /* TextFieldSwifUIViewModel.swift */; };
+		93E81F402BFDDA090076537A /* TextFieldUIKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E81F3F2BFDDA090076537A /* TextFieldUIKitViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93D366132BFBC937009B1345 /* Combine_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combine_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D366162BFBC937009B1345 /* Combine_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_SwiftUIApp.swift; sourceTree = "<group>"; };
-		93D366182BFBC937009B1345 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93D366182BFBC937009B1345 /* TextFieldSwifUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSwifUIView.swift; sourceTree = "<group>"; };
 		93D3661A2BFBC93A009B1345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93D3661D2BFBC93A009B1345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93D366242BFBE03E009B1345 /* TextFieldUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldUIKit.swift; sourceTree = "<group>"; };
+		93E81F3D2BFDD9C90076537A /* TextFieldSwifUIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSwifUIViewModel.swift; sourceTree = "<group>"; };
+		93E81F3F2BFDDA090076537A /* TextFieldUIKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldUIKitViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				93D366162BFBC937009B1345 /* Combine_SwiftUIApp.swift */,
-				93D366182BFBC937009B1345 /* ContentView.swift */,
+				93E81F3A2BFDD8AE0076537A /* TwoTextFields */,
 				93D3661A2BFBC93A009B1345 /* Assets.xcassets */,
 				93D3661C2BFBC93A009B1345 /* Preview Content */,
 			);
@@ -65,6 +71,33 @@
 				93D3661D2BFBC93A009B1345 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93E81F3A2BFDD8AE0076537A /* TwoTextFields */ = {
+			isa = PBXGroup;
+			children = (
+				93E81F3C2BFDD9BC0076537A /* UIKit */,
+				93E81F3B2BFDD9B30076537A /* SwiftUI */,
+			);
+			path = TwoTextFields;
+			sourceTree = "<group>";
+		};
+		93E81F3B2BFDD9B30076537A /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				93D366182BFBC937009B1345 /* TextFieldSwifUIView.swift */,
+				93E81F3D2BFDD9C90076537A /* TextFieldSwifUIViewModel.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		93E81F3C2BFDD9BC0076537A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				93D366242BFBE03E009B1345 /* TextFieldUIKit.swift */,
+				93E81F3F2BFDDA090076537A /* TextFieldUIKitViewModel.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D366192BFBC937009B1345 /* ContentView.swift in Sources */,
+				93D366192BFBC937009B1345 /* TextFieldSwifUIView.swift in Sources */,
+				93E81F402BFDDA090076537A /* TextFieldUIKitViewModel.swift in Sources */,
+				93E81F3E2BFDD9C90076537A /* TextFieldSwifUIViewModel.swift in Sources */,
 				93D366172BFBC937009B1345 /* Combine_SwiftUIApp.swift in Sources */,
+				93D366252BFBE03E009B1345 /* TextFieldUIKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
