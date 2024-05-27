@@ -9,7 +9,7 @@ import SwiftUI
 struct Combine_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RickAndMortyView()
         }
     }
 }
